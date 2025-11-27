@@ -124,7 +124,7 @@ config = {"configurable": {"thread_id": "day3-thread"}}
 # --------------------------------------------------------------
 
 def cli_chat():
-    print("LangGraph CLI (Day 3). Type 'exit' to quit.\n")
+    print("LangGraph CLI. Type 'exit' to quit.\n")
 
     while True:
         user_input = input("You: ")

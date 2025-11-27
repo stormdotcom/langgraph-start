@@ -1,4 +1,4 @@
-# LangGraph Day 3 — OpenAI + Tools + SQLite Memory (Project Overview)
+# LangGraph | OpenAI + Tools + SQLite Memory 
 
 This project demonstrates a stateful LangGraph agent built with:
 
