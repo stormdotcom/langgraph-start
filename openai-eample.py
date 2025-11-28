@@ -22,10 +22,6 @@ import gradio as gr
 # --------------------------------------------------------------
 load_dotenv(override=True)
 
-print(os.getenv("OPENAI_API_KEY"))
-# --------------------------------------------------------------
-# 2. Tools (Search + Push Notification)
-# --------------------------------------------------------------
 
 # Serper Search Tool
 serper = GoogleSerperAPIWrapper()
