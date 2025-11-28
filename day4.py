@@ -172,8 +172,10 @@ conn = sqlite3.connect("day4_memory.db", check_same_thread=False)
 checkpointer = SqliteSaver(conn)
 
 graph = graph_builder.compile(checkpointer=checkpointer)
-config = {"configurable": {"thread_id": "day4-thread"}}
-
+config = {
+    "configurable": {"thread_id": "day4-thread"},
+    "recursion_limit": 100
+}
 
 def gradio_chat(message, history):
     result = graph.invoke(
